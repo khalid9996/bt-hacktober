@@ -1,0 +1,72 @@
+.sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 53, 53);
+    color: rgb(226, 226, 226);
+    font-size: 31px;
+    gap: 12px;
+    width: fit-content;
+    height: 55rem;
+}
+
+.sidenavicon {
+    padding: 6px;
+}
+.sidenavicon:hover {
+    border-radius: 6px;
+    background-color: rgb(97, 97, 97);
+}
+
+
+.sidebar__nav__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    color: rgb(226, 226, 226);
+    bottom: 50px;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.sidebar__explorer {
+    cursor: pointer;
+    user-select: none;
+    padding: 7px;
+    color: white;
+    height: 54.1rem;
+    width: 12rem;
+    background-color: rgb(32, 32, 32);
+    font-size: 15px;
+}
+
+
+
+.explorer__txt {
+    padding: 10px;
+    display: flex;
+    gap: 90px;
+    color: rgb(185, 185, 185);
+}
+
+.sidebar__expansion {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+
+.explorer_portfolio {
+    margin-left: 13px;
+}
+
+.explorer_src {
+    margin-left: 13px;
+}
+
+.explorer_components {
+    margin-left: 13px;
+}
+
